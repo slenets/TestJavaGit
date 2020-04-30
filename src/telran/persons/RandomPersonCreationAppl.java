@@ -38,6 +38,7 @@ public static void main(String[] args) throws FileNotFoundException, IOException
 				SpringApplication.run(RandomPersonCreationAppl.class, args);
 		PersonsRepository repo = ctx.getBean(PersonsRepository.class);
 		repo.saveAll(persons);
+		String str = "hello";
 		
 	}
 
